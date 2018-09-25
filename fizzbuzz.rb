@@ -9,14 +9,13 @@
 #   end
 # end
 def fizzbuzz(n)
-  if n % 5 && n % 3 == 0
+  if n % 5 == 0 && n % 3 == 0
     return "FizzBuzz"
-  if n % 3 == 0
+  elsif n % 3 == 0
    return "Fizz"
-  if n % 5 == 0
+  elsif n % 5 == 0
     return "Buzz"
-  else print n
-  end
-  end
+  else 
+    print n
   end
 end
